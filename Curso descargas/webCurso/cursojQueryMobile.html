@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8"/>
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+</head>
+<body>
+    <div data-role = "page" id = "page1">
+        <div data-role = "content">
+            <img src = "http://cms.ual.es/idc/groups/public/@orgob/@gabcomunicacion/documents/imagen/imagenizqcivgif.gif" width = "100%">
+            <ul data-role = "listview" data-inset = "true">
+                <li data-role = "list-divider">
+                    Curso Desarrollo de aplicaciones para smartphones y tablets usando jQuery Mobile
+                </li>
+                <li>
+                    <a href = '#datosAcademicos' data-transition = 'slide'>Datos académicos</a>
+                </li>
+                <li>
+                    <a href = '#datosGenerales' data-transition = 'slide'>Datos generales</a>
+                </li>
+                <li>
+                    <a href = '#plazos' data-transition = 'slide'>Plazos</a>
+                </li>
+                <li>
+                    <a href = '#preciosPublicos' data-transition = 'slide'>Precios públicos</a>
+                </li>
+            </ul>
+            <a href = "http://centrofcontinua.ual.es/formpreinscripcion.asp?CodCurso=141062" target = "_blank" data-role = "button" data-theme = "b">Preinscripción</a>
+            <a href = "mailto:mtorres@ual.es?subject=Petición información Curso jQuery Mobile" data-role = "button">Contactar (mtorres@ual.es)</a>
+        </div>
+    </div>
+
+    <!-- Página Datos académicos -->
+
+    <div data-role = "page" id = "datosAcademicos" data-add-back-btn="true" data-back-btn-text="Atrás">
+        <div data-role = "header">
+            <h1>Datos académicos</h1>
+        </div>
+
+        <div data-role = "content">
+            <div data-role = "collapsible-set">
+                <div data-role = "collapsible">
+                    <h2>Objetivos</h2>
+ 
+                  <ul data-role = 'listview' data-inset = 'true'>
+                        <li>
+                            Aprender a utilizar los aspectos básicos de jQuery Mobile: Multipáginas, botones, cuadros de mensaje, popups, temas, e interacción con aplicaciones del propio dispositivo (sms, teléfono, mail)
+                        </li>
+                        <li>
+                            Aprender a utilizar los componentes de la interfaz de usuario en jQuery Mobile: Barras de navegación, elementos colapsables, agrupaciones de componentes y efectos
+                        </li>
+                        <li>
+                            Aprender a utilizar listas y sus componentes en jQuery Mobile: Listas inset, separadores de listas, listas maestro detalle, listas anidadas, autofiltrado con cuadros de búsqueda, listas con múltiples elementos y listas agrupadas
+                        </li>
+                        <li>
+                            Aprender a utilizar formularios y sus componentes en jQuery Mobile: Formularios, sliders, listboxes, interruptores, radio buttons y check boxes
+                        </li>
+                    </ul>
+                </div>
+
+                <div data-role = "collapsible">
+                   <h2>Contenidos</h2>
+                    <ul data-role = 'listview' data-inset = 'true'>
+                        <li>
+                            Aspectos básicos del framework jQuery Mobile <span class = "ui-li-count">5 h</span>
+                        </li>
+                        <li>
+                            Componentes de la interfaz de usuario en jQuery Mobile <span class = "ui-li-count">5 h</span>
+                        </li>
+                        <li>
+                            Listas en jQuery Mobile <span class = "ui-li-count">5 h</span>
+                        </li>
+                        <li>
+                            Formularios en jQuery Mobile <span class = "ui-li-count">5 h</span>
+                        </li>
+                        <li>
+                            Desarrollo de una aplicación de tienda online para dispositivo táctil <span class = "ui-li-count">10 h</span>
+                        </li>
+                    </ul>               
+                     </div>
+            
+            <div data-role = "collapsible">
+                <h2>Metodología</h2>
+            <ul data-role = 'listview' data-inset = 'true'>
+                <li>
+                    Curso online mediante videotutoriales que muestran de forma práctica y sencilla cada una de las técnicas y controles de jQuery Mobile necesarios para desarrollar una aplicación para un dispositivo táctil
+                </li>
+                <li>
+                    Tras cada videotutorial se plantea un problema a resolver basado en lo aprendido en el videotutorial
+                </li>
+                <li>
+                    Tutorías on line y foros usando la plataforma del curso
+                </li>
+            </ul>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Página Datos generales -->
+
+    <div data-role = "page" id = "datosGenerales" data-add-back-btn="true" data-back-btn-text="Atrás">
+        <div data-role = "header">
+            <h1>Datos generales</h1>
+        </div>
+
+        <div data-role = "content">
+            <ul data-role = 'listview' data-inset = 'true'>
+                <li data-role = 'list-divider'>
+                    Datos generales
+                </li>
+                <li>
+                    Dirigido a: Estudiantes, titulados y profesionales de informática
+                </li>
+                <li>
+                    Duración: 30 horas
+                </li>
+                <li>
+                    Modalidad: Online
+                </li>
+                <li>
+                    Plazas limitadas
+                </li>
+                <li>
+                    Título a expedir: Diploma aptitud
+                </li>
+                <li>
+                    Precios publicos: 90 EUR
+                </li>
+            </ul>
+            <a href = "http://centrofcontinua.ual.es/formpreinscripcion.asp?CodCurso=141062" target = "_blank" data-role = "button" data-theme = "b">Preinscripción</a>
+            <a href = "mailto:mtorres@ual.es?subject=Petición información Curso jQuery Mobile" data-role = "button">Contactar (mtorres@ual.es)</a>
+            <a href = "http://bdlsi.ual.es/moodle/course/view.php?id=6" target = "_blank" data-role = "button">Plataforma del curso</a>
+        </div>
+    </div>
+
+    <!-- Página Plazos -->
+
+    <div data-role = "page" id = "plazos" data-add-back-btn="true" data-back-btn-text="Atrás">
+        <div data-role = "header">
+            <h1>Plazos</h1>
+        </div>
+
+        <div data-role = "content">
+            <ul data-role = 'listview' data-inset = 'true'>
+                <li data-role = 'list-divider'>
+                    Fechas de interés
+                </li>
+                <li>
+                    <h3>Preinscripción</h3>
+                    <p>
+                        Del 30 de mayo al 6 de junio
+                    </p>
+                </li>
+                <li>
+                    <h3>Listado admitidos</h3>
+                    <p>
+                        14 de junio
+                    </p>
+                </li>
+                <li>
+                    <h3>Matriculación</h3>
+                    <p>
+                        Del 17 al 25 de junio
+                    </p>
+                </li>
+                <li>
+                    <h3>Fecha curso</h3>
+                    <p>
+                        Del 1 al 19 de julio
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Página PreciosPublicos -->
+
+    <div data-role = "page" id = "preciosPublicos" data-add-back-btn="true" data-back-btn-text="Atrás">
+        <div data-role = "header">
+            <h1>Precios</h1>
+        </div>
+
+        <div data-role = "content">
+            <ul data-role = 'listview' data-inset = 'true'>
+                <li data-role = 'list-divider'>
+                    Precios públicos
+                </li>
+                <li>
+                    90 EUR
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
